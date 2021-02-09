@@ -29,7 +29,7 @@ section {
 /* navbar */
 
 nav {
-  position: fixed;
+  position: flex;
   flex-wrap: wrap;
   display: flex;
   width: 100%;
