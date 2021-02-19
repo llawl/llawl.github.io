@@ -29,7 +29,7 @@ section {
 /* navbar */
 
 nav {
-  position: flex;
+  position: fixed;
   flex-wrap: wrap;
   display: flex;
   width: 100%;
@@ -45,6 +45,8 @@ nav .logo h3 a {
   color: white;
   text-decoration: none;
   letter-spacing: 4px;
+  font-size: 20px;
+  float: left;
 }
 
 nav .logo h3 a:hover {
@@ -54,12 +56,15 @@ nav .logo h3 a:hover {
 nav ul {
   display: flex;
   list-style: none;
-  width: 40%;
+  width: 60%;
   justify-content: space-between;
   color: white;
+  float: right;
 }
 
 nav ul li a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
   color: white;
   text-decoration: none;
 }
