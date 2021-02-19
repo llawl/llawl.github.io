@@ -309,6 +309,7 @@ section h3 {
   .menu-toggle {
     display: flex;
     z-index: 2;
+    float: right;
   }
 
   nav ul.slide {
